@@ -1,0 +1,33 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#btn{
+    padding: 10px 60px;
+    border: 2px solid red;
+    outline: none;
+    font-size: 1rem;
+    text-transform:capitalize;
+    margin: 40px 600px;
+    background-color:"#6c5b95";
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width:20%;
+    height:150px;
+    background-color: hotpink;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font: size 20px;
+    font-weight: 500;
+    
+}
